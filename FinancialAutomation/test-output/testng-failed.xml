@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="com.cnnnews.CnnNewsBasePage">
+        <methods>
+          <include name="pages"/>
+          <include name="biggestBarName"/>
+          <include name="sectorPerformance"/>
+          <include name="homePage"/>
+          <include name="validateMostPopular"/>
+          <include name="mostPopularStocks"/>
+          <include name="setUp"/>
+          <include name="displayDataonMarket"/>
+          <include name="loserSection"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- com.cnnnews.CnnNewsBasePage -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
